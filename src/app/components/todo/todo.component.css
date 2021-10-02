@@ -1,0 +1,33 @@
+.todo {
+    display: inline-block;
+    width: calc(100% - 15px);
+}
+
+.todo-item {
+    padding: 20px;
+    margin: 8px 0px;
+    border: 1px solid #2D8183;
+    border-left: 4px solid #2D8183;
+    border-radius: 2px;
+    background-color: white;
+}
+  
+.todo-item:hover {
+    border: 2px solid #2D8183;
+    border-left: 6px solid #2D8183;
+    border-radius: 4px;
+}
+
+.todo-delete {
+    width: 10px;
+    display: inline-block;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: #D50000;
+    cursor: pointer;
+}
+  
+.todo-delete:hover {
+    font-weight: 1000;
+}

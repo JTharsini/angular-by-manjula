@@ -1,0 +1,105 @@
+.cssformember
+{
+    border-left-style: solid;
+    border-left-color: #955609;
+    border-left-width: 8px;
+
+    border-right-style: solid;
+    border-right-color: #C06F0C;
+    border-right-width: 6px;
+
+    border-top-style: solid;
+    border-top-color: #2B6A6C;
+    border-top-width: 4px;
+
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+
+    margin: 10px;
+    padding-left: 2px;
+    width: 250px;
+    background-color: #E5E2C9;
+    display: inline-block;
+}
+
+.styleformemberandbutton
+{
+    display: inline-block;
+}
+
+.styleformembers
+{
+    background-color: #57C2C5;
+    margin-top: 300px;
+}
+
+.styleforheading
+{
+    font-size: 24px;
+    color: #2D8183;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px #1bd3d6;
+    margin-bottom: 20px
+}
+
+.styleforform
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-width: 2px;
+    border-color: #167579;
+    border-style: solid;
+    margin: 10px;
+    display: flexbox;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.styleforname
+{
+    color: #4C837A;
+    background-color: white;
+    font-size: 18px;
+}
+
+.stylefordesc
+{
+    color: white;
+    background-color: #4C837A;
+    font-size: 18px;
+}
+
+.styleforips
+{
+    float: right;
+    margin: 10px;
+}
+
+.styleforlabel
+{
+    float: left;
+    margin: 10px;
+}
+
+.styleforbutton
+{
+    float: right;
+    margin: 10px;
+}
+
+.styleforpage
+{
+    display:inherit;
+}
+
+.stylefordeletebutton
+{
+    color: red;
+    cursor: pointer;
+}

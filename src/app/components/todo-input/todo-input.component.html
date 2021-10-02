@@ -1,0 +1,12 @@
+<form #jjform="ngForm" class="todo-insert" (ngSubmit)="onSubmit(jjform)">
+    <div class="todo-input">
+      <input type="text" name="todo-input" [(ngModel)]="todo" required/>
+    </div>
+    <div>
+      <input class="todo-input" type="text" name="todoinputonewaybinding" ngModel/>
+    </div>
+    <div class="todo-button">
+      <input type="submit" name="add" [disabled]="!jjform.valid" value="Add"/>
+    </div>
+    <span *ngIf="!jjform.valid && jjform.dirty">Please insert a value</span>
+</form>

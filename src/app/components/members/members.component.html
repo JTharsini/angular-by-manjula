@@ -1,0 +1,30 @@
+<div class="styleforpage">
+    <div class="styleforform">
+      <br>
+      <form>
+        <div class="styleforheading">{{message | uppercase}}</div>
+        <div>
+          <div>
+            <label class="styleforlabel">Name</label>
+            <input type="text" [(ngModel)]="memberName" name='namefield' class="styleforips"/>
+          </div>
+          <div>
+            <label class="styleforlabel">Description</label>
+            <input type="text" [(ngModel)]="memberDescription" name ='descriptionfield' class="styleforips"/>
+          </div>
+          <div class="styleforbutton">
+            <button (click)= "onAddMember()">Add member</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="styleformembers">
+      <div *ngFor="let member of members" class="styleformemberandbutton">
+        <div class="cssformember">
+          <div class="styleforname" [id]="member.name">{{member.name}}</div>
+          <div class="stylefordesc">{{member.description}}</div>
+        </div>
+        <button class="stylefordeletebutton" (click)="onRemoveMember(member)">X</button>
+      </div>
+    </div>
+  </div>
